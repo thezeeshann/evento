@@ -10,6 +10,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+
 model EventoEvent {
   id            Int      @id @default(autoincrement())
   name          String
