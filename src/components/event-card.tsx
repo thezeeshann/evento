@@ -1,4 +1,4 @@
-import { EventoEvent } from "@/lib/type";
+import { EventoEvent } from "@prisma/client";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
