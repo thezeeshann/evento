@@ -1,8 +1,8 @@
-import { EventoEvent } from "@/lib/type";
+
 import Image from "next/image";
 import H1 from "@/components/h1";
 import { Metadata } from "next";
-import { getEvent } from "@/lib/utils";
+import { getEvent } from "@/lib/server-utils";
 
 type Props = {
   params: {
